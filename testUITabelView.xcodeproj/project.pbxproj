@@ -13,10 +13,12 @@
 		E38201F827EB1CB700A3F35D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E38201F627EB1CB700A3F35D /* Main.storyboard */; };
 		E38201FA27EB1CB900A3F35D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E38201F927EB1CB900A3F35D /* Assets.xcassets */; };
 		E38201FD27EB1CB900A3F35D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E38201FB27EB1CB900A3F35D /* LaunchScreen.storyboard */; };
+		E382020527EB2A0300A3F35D /* MyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E382020427EB2A0300A3F35D /* MyTableViewCell.swift */; };
+		E3E4FE7227F1BB1100A91A6F /* InputViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3E4FE7127F1BB1100A91A6F /* InputViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		E38201ED27EB1CB700A3F35D /* UITabelView練習.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UITabelView練習.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E38201ED27EB1CB700A3F35D /* testUITabelView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testUITabelView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E38201F027EB1CB700A3F35D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E38201F227EB1CB700A3F35D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		E38201F427EB1CB700A3F35D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +26,8 @@
 		E38201F927EB1CB900A3F35D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E38201FC27EB1CB900A3F35D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E38201FE27EB1CB900A3F35D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E382020427EB2A0300A3F35D /* MyTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTableViewCell.swift; sourceTree = "<group>"; };
+		E3E4FE7127F1BB1100A91A6F /* InputViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,7 +52,7 @@
 		E38201EE27EB1CB700A3F35D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E38201ED27EB1CB700A3F35D /* UITabelView練習.app */,
+				E38201ED27EB1CB700A3F35D /* testUITabelView.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -63,6 +67,8 @@
 				E38201F927EB1CB900A3F35D /* Assets.xcassets */,
 				E38201FB27EB1CB900A3F35D /* LaunchScreen.storyboard */,
 				E38201FE27EB1CB900A3F35D /* Info.plist */,
+				E382020427EB2A0300A3F35D /* MyTableViewCell.swift */,
+				E3E4FE7127F1BB1100A91A6F /* InputViewController.swift */,
 			);
 			path = "UITabelView練習";
 			sourceTree = "<group>";
@@ -70,9 +76,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		E38201EC27EB1CB700A3F35D /* UITabelView練習 */ = {
+		E38201EC27EB1CB700A3F35D /* testUITabelView */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E382020127EB1CB900A3F35D /* Build configuration list for PBXNativeTarget "UITabelView練習" */;
+			buildConfigurationList = E382020127EB1CB900A3F35D /* Build configuration list for PBXNativeTarget "testUITabelView" */;
 			buildPhases = (
 				E38201E927EB1CB700A3F35D /* Sources */,
 				E38201EA27EB1CB700A3F35D /* Frameworks */,
@@ -82,9 +88,9 @@
 			);
 			dependencies = (
 			);
-			name = "UITabelView練習";
+			name = testUITabelView;
 			productName = "UITabelView練習";
-			productReference = E38201ED27EB1CB700A3F35D /* UITabelView練習.app */;
+			productReference = E38201ED27EB1CB700A3F35D /* testUITabelView.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -102,7 +108,7 @@
 					};
 				};
 			};
-			buildConfigurationList = E38201E827EB1CB700A3F35D /* Build configuration list for PBXProject "UITabelView練習" */;
+			buildConfigurationList = E38201E827EB1CB700A3F35D /* Build configuration list for PBXProject "testUITabelView" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -115,7 +121,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				E38201EC27EB1CB700A3F35D /* UITabelView練習 */,
+				E38201EC27EB1CB700A3F35D /* testUITabelView */,
 			);
 		};
 /* End PBXProject section */
@@ -139,6 +145,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				E38201F527EB1CB700A3F35D /* ViewController.swift in Sources */,
+				E3E4FE7227F1BB1100A91A6F /* InputViewController.swift in Sources */,
+				E382020527EB2A0300A3F35D /* MyTableViewCell.swift in Sources */,
 				E38201F127EB1CB700A3F35D /* AppDelegate.swift in Sources */,
 				E38201F327EB1CB700A3F35D /* SceneDelegate.swift in Sources */,
 			);
@@ -300,7 +308,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "idv.sjw.UITabelView--";
+				PRODUCT_BUNDLE_IDENTIFIER = idv.sjw.testUITabelView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -328,7 +336,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "idv.sjw.UITabelView--";
+				PRODUCT_BUNDLE_IDENTIFIER = idv.sjw.testUITabelView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -339,7 +347,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		E38201E827EB1CB700A3F35D /* Build configuration list for PBXProject "UITabelView練習" */ = {
+		E38201E827EB1CB700A3F35D /* Build configuration list for PBXProject "testUITabelView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E38201FF27EB1CB900A3F35D /* Debug */,
@@ -348,7 +356,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E382020127EB1CB900A3F35D /* Build configuration list for PBXNativeTarget "UITabelView練習" */ = {
+		E382020127EB1CB900A3F35D /* Build configuration list for PBXNativeTarget "testUITabelView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E382020227EB1CB900A3F35D /* Debug */,
